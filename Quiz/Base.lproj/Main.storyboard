@@ -45,7 +45,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cp5-HZ-qqj">
-                                <rect key="frame" x="166" y="55" width="42" height="21"/>
+                                <rect key="frame" x="166.5" y="55" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -69,7 +69,9 @@
                     <connections>
                         <outlet property="answerLabel" destination="V83-3N-cVn" id="T7Y-eC-JzJ"/>
                         <outlet property="currentQuestionLabel" destination="nFt-Zw-GmQ" id="qJt-1L-zuK"/>
+                        <outlet property="currentQuestionLabelCenterXConstraint" destination="wEn-c8-KPZ" id="FKp-bq-Sg5"/>
                         <outlet property="nextQuestionLabel" destination="Cp5-HZ-qqj" id="uzG-OL-61g"/>
+                        <outlet property="nextQuestionLabelCenterXConstraint" destination="AFO-If-uTa" id="Htf-My-u6H"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
